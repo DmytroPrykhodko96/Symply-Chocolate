@@ -17,11 +17,27 @@
       <a class="logo" href="./index.html">SIMPLY <CHOKOLATE class="logo-style">CHOKOLATE</span></a>
       <nav class="nav-header">
         <ul class="header-nav-list">
-          <li class="header-nav-item"><a class="item-nav-link" href="./index.html">Home</a></li>
+          <li class="header-nav-item"><a class="item-nav-link curent" href="./index.html">Home</a></li>
           <li class="header-nav-item"><a class="item-nav-link" href="#made">How is's made?</a></li>
           <li class="header-nav-item"><a class="item-nav-link" href="#chocolate">Chocolate is loved</a></li>
         </ul>
       </nav>
+      <ul class="icon-list">
+        <li class="item-icon">
+          <a href="#" class="icon-link">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item-icon">
+          <a href="#" class="icon-link">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
     </header>
     <!-- #endregion header -->
@@ -33,9 +49,11 @@
         <h1 class="hero-title section-title">
           Treat yourself or loved one to our finest ingredients for a moment
         </h1>
-        <button class="hero-btn" type="button">Buy now</button>
-        <a class="hero-link-made" href="#made">How is's made?</a>
-        <a class="hero-link-down" href="#footer">scrol down</a>
+        <div class="hero-buttons">
+          <button class="hero-btn" type="button">Buy now</button>
+          <a class="hero-link-made" href="#made">How is's made?</a>
+          <a class="hero-link-down" href="#footer">scrol down</a>
+        </div>
       </div>
       </div>
       </section>
@@ -88,27 +106,30 @@
           ingredients to the careful crafting of each individual piece, every
           step of our process adds up to one exceptional taste sensation.
         </p>
-        <ul>
-          <li>
-            <img
-              src="./images/ingridients/chocolate.jpg"
-              alt="Chokolate"
-              width="206"
-              height="160"
-            />
-            <h3>MILK CHOKOLADE</h3>
+        <ul class="ingridients-list">
+          <li class="ingridients-items">
+            <div class="ingridients-block">
+              <img
+                src="./images/ingridients/chocolate.png"
+                alt="Chokolate"
+                width="206"
+                height="160" class="ingridients-img"
+              />
+              <h3 class="ingridients-items-titles">MILK CHOKOLADE</h3>
+            </div>
+            <p class="overlay">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam architecto assumenda doloribus, veniam rem iusto repellendus necessitatibus ad, quo porro delectus fuga doloremque, soluta eius ullam blanditiis harum? Cumque, tempora?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus id laborum unde est. Iusto veritatis facilis perspiciatis voluptates. Explicabo nobis reiciendis, perferendis reprehenderit quas sint magni vero optio minima placeat?</p>
           </li>
-          <li>
-            <img src="./images/ingridients/milk.jpg" alt="milk" width="206" height="160" />
-            <h3>MILK</h3>
+          <li class="ingridients-items">
+            <img src="./images/ingridients/milk.png" alt="milk" width="206" height="160" class="ingridients-img" />
+            <h3 class="ingridients-items-titles">MILK</h3>
           </li>
-          <li>
-            <img src="./images/ingridients/nuts.jpg" alt="nuts" width="206" height="160" />
-            <h3>NUTS</h3>
+          <li class="ingridients-items">
+            <img src="./images/ingridients/nuts.png" alt="nuts" width="206" height="160" class="ingridients-img" />
+            <h3 class="ingridients-items-titles">NUTS</h3>
           </li>
-          <li>
-            <img src="./images/ingridients/semi.jpg" alt="semi" width="206" height="160" />
-            <h3>NUTS SEMI - SWEET CHOCOLATE</h3>
+          <li class="ingridients-items">
+            <img src="./images/ingridients/semi.png" alt="semi" width="206" height="160" class="ingridients-img" />
+            <h3 class="ingridients-items-titles">NUTS SEMI - SWEET CHOCOLATE</h3>
           </li>
         </ul>
       </div>
